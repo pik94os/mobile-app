@@ -4,9 +4,9 @@
       "type": "Import",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
-      "projectGuid": "59e02270-8e57-472a-8937-65f28e278462",
-      "lastModifiedDate": 1475235819320,
-      "creationDate": 1475149169449
+      "projectGuid": "41758713-188d-47c2-9483-217dff7f2382",
+      "lastModifiedDate": 1475507180248,
+      "creationDate": 1475496401824
     },
     "gameAssetDirectory": "asset",
     "gameMetadata": {},
@@ -14,23 +14,8 @@
     "projectTags": [
       "XDK-disallow-legacy-whitelist"
     ],
-    "projectFiles": {
-      "xdk-publish-meta-data.json": {
-        "settings": {
-          "project": {
-            "XDK-not-deployed": "True"
-          }
-        }
-      }
-    },
+    "projectFiles": {},
     "projectDirectories": {
-      "xdk": {
-        "settings": {
-          "project": {
-            "XDK-generated": "true"
-          }
-        }
-      },
       "www/bower_components/ionic": {
         "settings": {
           "project": {
@@ -87,7 +72,7 @@
         },
         "isActive_": true,
         "certificateId_": "",
-        "appName_": "scaner",
+        "appName_": "scaner-tabs",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "whitelist",
@@ -95,8 +80,7 @@
             "*"
           ],
           "intents": [],
-          "navigation": [],
-          "properties": {}
+          "navigation": []
         },
         "addlPermissions_": "",
         "icons_": [],
@@ -105,9 +89,7 @@
         "appVersionCode_": "1",
         "signed_": true,
         "crosswalkVersion_": "19",
-        "cordovaCLIVersion_": "6.2.0",
-        "appDescription_": "scaner",
-        "appAuthor_": "pik"
+        "cordovaCLIVersion_": "6.2.0"
       },
       "iOS": {
         "platform_": "ios",
@@ -119,7 +101,7 @@
         },
         "isActive_": true,
         "certificateId_": "",
-        "appName_": "scaner",
+        "appName_": "scaner-tabs",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "whitelist",
@@ -143,7 +125,7 @@
         "preferences_": {},
         "isActive_": true,
         "certificateId_": "",
-        "appName_": "scaner",
+        "appName_": "scaner-tabs",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "whitelist",
@@ -184,7 +166,7 @@
         "preferences_": {},
         "isActive_": false,
         "certificateId_": "",
-        "appName_": "scaner",
+        "appName_": "scaner-tabs",
         "appID_": "not.yet.specified",
         "icons_": [],
         "splashes_": [],
@@ -206,7 +188,7 @@
         "preferences_": {},
         "isActive_": true,
         "certificateId_": "",
-        "appName_": "scaner",
+        "appName_": "scaner-tabs",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "whitelist",
@@ -338,49 +320,6 @@
         "description": "Ionic Keyboard Plugin",
         "data": {},
         "dependedBy": []
-      },
-      {
-        "id": "cordova-plugin-dialogs",
-        "name": "Notification",
-        "version": "1.3.0",
-        "originType": "cordova.io",
-        "origin": "cordova-plugin-dialogs",
-        "gitref": "",
-        "paramvals": {},
-        "sourceLocation": "plugins/cordova-plugin-dialogs",
-        "selectedState": "Included",
-        "checksum": "152e4750",
-        "dependsOn": [],
-        "topLevel": false,
-        "permissions": {},
-        "description": "Cordova Notification Plugin",
-        "data": {},
-        "dependedBy": []
-      },
-      {
-        "id": "manateeworks-barcodescanner",
-        "name": "MWBarcodeScanner",
-        "version": "2.0.0",
-        "originType": "cordova.io",
-        "origin": "manateeworks-barcodescanner",
-        "gitref": "",
-        "paramvals": {},
-        "sourceLocation": "plugins/manateeworks-barcodescanner",
-        "selectedState": "Included",
-        "checksum": "98f96201",
-        "dependsOn": [],
-        "topLevel": false,
-        "cordovaVersion": ">=3.0.0",
-        "permissions": {
-          "android:name": [
-            "android.permission.CAMERA",
-            "android.permission.INTERNET"
-          ]
-        },
-        "description": "Manatee Works Barcode Scanner Plugin",
-        "data": {},
-        "dependedBy": [],
-        "custom": "true"
       }
     ],
     "sourceDirectory": "www",

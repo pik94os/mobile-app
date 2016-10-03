@@ -1,5 +1,14 @@
 <ion-view view-title="Scan">
   <ion-content class="padding">
-    <button class="button button-dark button-block button-large icon-left ion-android-camera button-full" onclick="scanner.startScanning(0,4,100,50)">Сканировать код</button>
+        <div>
+            <input type="button" value="scan" onclick="scan()" style="position: absolute;
+                    bottom: 80px; left: 15%; width: 30%; height: 30px; font-size: 1em"/>
+            <input type="button" value="cancel" onclick="cancel()" style="position: absolute;
+                    bottom: 80px; right: 15%; width: 30%; height: 30px; font-size: 1em"/>
+            <input type="button" value="stop" onclick="stop()" style="position: absolute;
+                    bottom: 30px; left: 15%; width: 30%; height: 30px; font-size: 1em"/>
+            <input type="button" value="restart" onclick="start()" style="position: absolute;
+                    bottom: 30px; right: 15%; width: 30%; height: 30px; font-size: 1em"/>
+        </div>
   </ion-content>
 </ion-view>
