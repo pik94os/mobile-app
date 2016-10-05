@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "41758713-188d-47c2-9483-217dff7f2382",
-      "lastModifiedDate": 1475507180248,
+      "lastModifiedDate": 1475507733994,
       "creationDate": 1475496401824
     },
     "gameAssetDirectory": "asset",
@@ -320,6 +320,30 @@
         "description": "Ionic Keyboard Plugin",
         "data": {},
         "dependedBy": []
+      },
+      {
+        "id": "com.mirasense.scanditsdk.plugin",
+        "name": "ScanditBarcodeScanner",
+        "version": "4.16.2",
+        "originType": "local",
+        "origin": "/Users/Roman/Downloads/scandit-barcodescanner-community-phonegap_4.16.2",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/com.mirasense.scanditsdk.plugin",
+        "selectedState": "Included",
+        "checksum": "fcf26d8f",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {
+          "android:name": [
+            "android.permission.CAMERA",
+            "android.permission.VIBRATE",
+            "android.permission.INTERNET"
+          ]
+        },
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
       }
     ],
     "sourceDirectory": "www",
